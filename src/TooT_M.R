@@ -47,12 +47,12 @@ TooT_M<- function(test_fasta,mRMR_file, topconspredictions)
     for(i in 1:length( names(seqs)))
     {
       temp<-unlist(as.vector(c(unname(testvoting[i,]))))
-      # if(topconspredictions[i,2]==1)
-      # {
-      #   temp=c(temp, rep(1,19))
-      # }else{
-      #   temp=c(temp, 2)
-      # }
+      if(topconspredictions[i,2]==1)
+      {
+        temp=c(temp, rep(1,19))
+      }else{
+        temp=c(temp, 2)
+      }
       
       results[i]<- as.numeric(names(sort(table(temp),decreasing=TRUE))[1])
       
@@ -70,7 +70,7 @@ terminate <- FALSE
 out <- "."
 TooTMdir <- "."
 db<-"./db/"
-topcons2<-"./db/"
+topcons2<-"."
 for(i in args){
   arg = strsplit(i, "=")[[1]];
   
@@ -93,7 +93,7 @@ for(i in args){
          "-help"={
            cat("TooTM v1.0 (Oct. 2019)\n")
            cat("\n")
-           cat("Usage: TooTM -query=<input> [-TooTM=<TooTMdir>] [-out=<outdir>] [-db=<database path>] [-topcons2=<TOPCONS2 results file>]\n")
+           cat("Usage: TooTM -query=<input> [-TooTM=<TooTMdir>] [-out=<outdir>] [-db=<database path>] [-topcons2=<TOPCONS2 results path>]\n")
            cat("\n")
            cat("\t<input> is your sequence input file in fasta format\n")
            cat("\t<out> is the output directory where you want the predicted results, formatted as csv\n")
@@ -102,7 +102,7 @@ for(i in args){
            cat("\t\t<TooTMdir> defaults to '",TooTMdir,"'\n")
            cat("\t <database path> is the relative path to the database\n")
            cat("\t\t<database path> defaults to",TooTMdir,"/db/\n")
-           cat("\t <<TOPCONS2 results file> is the query result using TOPCONS (.txt format) \n")
+           cat("\t <TOPCONS2 results path> is the query result using TOPCONS2 (.txt format) \n")
            cat("\n")
            terminate <- TRUE
            break

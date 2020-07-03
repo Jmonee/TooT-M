@@ -26,7 +26,7 @@ The scripts needed to use the tool.
 
 ## HOW TO USE
  - This tool requires that `BLAST` be pre-installed
- - Usage: `Rscript src/TooT_M_V1_11.R -query=<input> [-TooTM=<TooTMdir>] [-out=<outdir>] [-db=<path to db>][-topcons2=<TOPCONS2 results path>]`
+ - Usage: `Rscript src/TooT_M.R -query=<input> [-TooTM=<TooTMdir>] [-out=<outdir>] [-db=<path to db>][-topcons2=<TOPCONS2 results path>]`
   - `<input>` is your sequence input file in fasta format
   - `<out>` is the output directory where you want the predicted 	results, formatted as csv
   - `<TooTMdir>` is the directory where the base TooT-M files 	are located
