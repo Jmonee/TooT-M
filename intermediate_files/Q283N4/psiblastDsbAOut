@@ -1,0 +1,852 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /Users/m6oor/Desktop/Dropbox/membraneprdiction/DB/SwissOct18.fasta
+           558,125 sequences; 200,328,830 total letters
+
+Results from round 1
+
+
+Query= 
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Q283N4  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  363     1e-129
+A6NGE7  Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline de...  271     5e-93 
+A5PJD0  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  265     1e-90 
+Q0ZDF7  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  207     4e-68 
+A1L1C5  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  207     5e-68 
+A1L259  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  205     3e-67 
+D4GPU8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  109     2e-29 
+D8JBB8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  105     9e-28 
+Q45697  Uric acid degradation bifunctional protein OS=Bacillus sp...  100     6e-24 
+O32141  Uric acid degradation bifunctional protein PucL OS=Bacill...  97.4    9e-23 
+Q54SV3  Probable allantoinase 1 OS=Dictyostelium discoideum OX=44...  72.4    6e-14 
+
+
+>Q283N4 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Mus 
+musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 363 bits (933),  Expect = 1e-129, Method: Compositional matrix adjust.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ
+Sbjct  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+            LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP
+Sbjct  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+
+
+>A6NGE7 Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase 
+OS=Homo sapiens OX=9606 GN=URAD PE=5 SV=2
+Length=173
+
+ Score = 271 bits (692),  Expect = 5e-93, Method: Compositional matrix adjust.
+ Identities = 135/168 (80%), Positives = 142/168 (85%), Gaps = 0/168 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMD GEFVDVFGN  E+CPLIAAAVWSQRPFS LEDLE HFFAFIDAL +SGQ
+Sbjct  1    MDIEKVNSMDLGEFVDVFGNATERCPLIAAAVWSQRPFSDLEDLEKHFFAFIDALAQSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAG +LQ+GTLTAESQREQS AGL SL  D+RLRL +LNAQYR RFGFPFV
+Sbjct  61   EGILRCHPDLAGSELQRGTLTAESQREQSGAGLRSLGADERLRLAELNAQYRARFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+            LAAR SDR  VPRELARRL C    ELRTALGEVKKI  LRL DLL A
+Sbjct  121  LAARFSDRTAVPRELARRLLCPSAQELRTALGEVKKIGSLRLADLLRA  168
+
+
+>A5PJD0 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Bos 
+taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 265 bits (676),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 128/167 (77%), Positives = 140/167 (84%), Gaps = 0/167 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMDFGEFVDVFGN++E+CPLIAAAVWS+RPFSGL DLE HFFAFID LP SGQ
+Sbjct  1    MDIEKVNSMDFGEFVDVFGNVIERCPLIAAAVWSKRPFSGLGDLEKHFFAFIDGLPLSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EG+LRCHP+LAGR L  G LTAESQREQS AGL +L   +RLR  +L AQYR RFGFPFV
+Sbjct  61   EGVLRCHPELAGRQLPWGRLTAESQREQSAAGLQNLGAAERLRFTELTAQYRTRFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            LA RLSD A  PRELARRL+C P  ELRTALGEVKKI HLRL +LLG
+Sbjct  121  LALRLSDPAAAPRELARRLRCPPAQELRTALGEVKKICHLRLANLLG  167
+
+
+>Q0ZDF7 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Amia 
+calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 207 bits (528),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 97/166 (58%), Positives = 127/166 (77%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDM +VNS+ + EFV+ FGN+VE+CP++AAAVWS RPF+   DLE     FID+LP +GQ
+Sbjct  1    MDMRQVNSLSYEEFVETFGNVVERCPVVAAAVWSGRPFANSHDLEASIGEFIDSLPVAGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGI+RCHPDLAGRDL++G LTAES+ EQ+QAGLT LD  D  R+ +LNAQY+ERFGFPFV
+Sbjct  61   EGIVRCHPDLAGRDLKRGALTAESRGEQTQAGLTLLDAGDAARMNRLNAQYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + AR++++  +   LA RL  +P  E + A+ EVKKI  LRL D++
+Sbjct  121  ICARMNNKEEILLRLAERLGNEPAQERQCAIEEVKKICQLRLQDII  166
+
+
+>A1L1C5 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Xenopus 
+laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 207 bits (528),  Expect = 5e-68, Method: Compositional matrix adjust.
+ Identities = 92/166 (55%), Positives = 125/166 (75%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  +NSM + +F+D FGNI+E+CPL+ AA+WSQ+PF+ + +LEN  F FI++LP +G+
+Sbjct  1    MDLNTINSMSYEQFLDTFGNIIERCPLVTAAIWSQQPFASVTELENRVFDFIESLPLAGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDL +GTLT ESQ EQ+QAGLT L   ++  L  LN QY+ +FGFPFV
+Sbjct  61   EGILRCHPDLAGRDLMRGTLTDESQNEQAQAGLTLLSAKEKETLGFLNLQYKAKFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + A++SD+  + +EL  RLQ +   EL+  + EVKKI HLR+ DL 
+Sbjct  121  ICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVKKICHLRICDLF  166
+
+
+>A1L259 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Danio 
+rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 205 bits (522),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 94/166 (57%), Positives = 129/166 (78%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  VN++ + +FV +FGN+VEKCPLI+AA+WS RPF  L D+E     FI +LP SG+
+Sbjct  1    MDINVVNALAYEDFVKLFGNVVEKCPLISAAIWSYRPFKDLADIEARISEFIHSLPDSGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQ GTLT ESQ EQSQAG+T+LD+ + + + +LN++Y+ERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQSGTLTPESQEEQSQAGMTTLDSAEIVHMYRLNSEYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + ARL+++A + R+L+ RL+ +  +EL  A+ EVKKI  LRL  ++
+Sbjct  121  ICARLNNKADIVRQLSERLKNRRTAELECAIEEVKKICSLRLHSIV  166
+
+
+>D4GPU8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Haloferax 
+volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 
+/ NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2) OX=309800 GN=HVO_B0301 
+PE=3 SV=1
+Length=168
+
+ Score = 109 bits (272),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 62/164 (38%), Positives = 86/164 (52%), Gaps = 4/164 (2%)
+
+Query  5    KVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEGIL  64
+            +VN +D   FVD FG I E  P +A    S RPFS +++L +     ++   R  Q  +L
+Sbjct  8    QVNRLDDDSFVDAFGEIYEHSPWVAERARSSRPFSSVDELRSAMKRAVEDASREKQLQLL  67
+
+Query  65   RCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLAAR  124
+            R HPDL  R      +T  S+ EQ+ A L SL        Q+LN  YRERFGFPFV+A +
+Sbjct  68   RAHPDLGER----TEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFVMAVK  123
+
+Query  125  LSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+              +   +   + RR+     +E RTAL EV  I+ LRL +   +
+Sbjct  124  DENPDAIAAAMERRVDHSESTEFRTALDEVHTIAELRLAERFSS  167
+
+
+>D8JBB8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Halalkalicoccus 
+jeotgali (strain DSM 18796 / CECT 7217 / JCM 
+14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 PE=3 SV=1
+Length=176
+
+ Score = 105 bits (261),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 57/160 (36%), Positives = 84/160 (53%), Gaps = 4/160 (3%)
+
+Query  6    VNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEGILR  65
+            +N  D   FVD  G++ E+ P +A   WS++PFS ++ L+      +    +  Q  +LR
+Sbjct  9    LNQADKERFVDAVGDVYEESPWVAKRTWSEQPFSSIDGLQQAMANTVQDASQQKQLELLR  68
+
+Query  66   CHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLAARL  125
+             HPDL  R      +T ESQ EQ+ AGL  L        Q LN  YR++FGFPF++A + 
+Sbjct  69   AHPDLGER----TEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFIMAVKD  124
+
+Query  126  SDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDL  165
+                T+ + +  R+      E +TAL EV  I+ LRL +L
+Sbjct  125  ESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRLEEL  164
+
+
+>Q45697 Uric acid degradation bifunctional protein OS=Bacillus sp. (strain 
+TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 100 bits (250),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 53/166 (32%), Positives = 89/166 (54%), Gaps = 4/166 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            M + ++N M   EF+ + G + E    +A      RP+S  + L N     ++    + Q
+Sbjct  2    MRLKQLNEMSASEFIHLLGGVFENSSWVAERAEPNRPYSSFQSLYNKMVEIVETASDNEQ  61
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +++ HP L G +++   +T  SQ EQ  AGL  L  D++  L  LN +Y+++FGFPFV
+Sbjct  62   LKLIQMHPHL-GTNVK---ITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFV  117
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            +A R   +  + R +  RLQ   ++E + AL E+KKI+  RL ++ 
+Sbjct  118  MAVRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRLQEIF  163
+
+
+>O32141 Uric acid degradation bifunctional protein PucL OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=pucL PE=1 SV=1
+Length=494
+
+ Score = 97.4 bits (241),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 55/164 (34%), Positives = 83/164 (51%), Gaps = 4/164 (2%)
+
+Query  3    MVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEG  62
+            M  +N MD     D  G+I E    IA    + RPFS L DL       + A  R  Q  
+Sbjct  4    MDDLNQMDTQTLTDTLGSIFEHSSWIAERSAALRPFSSLSDLHRKMTGIVKAADRETQLD  63
+
+Query  63   ILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLA  122
+            +++ HP L  +     T++ +S REQ  AGL  L+  +      LN  Y +RFGFPF+LA
+Sbjct  64   LIKKHPRLGTKK----TMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFILA  119
+
+Query  123  ARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+             +   +  + + L  RL+ + E+E + AL E+ +I+  RL D++
+Sbjct  120  VKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADII  163
+
+
+>Q54SV3 Probable allantoinase 1 OS=Dictyostelium discoideum OX=44689 
+GN=allB1 PE=3 SV=1
+Length=649
+
+ Score = 72.4 bits (176),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 49/154 (32%), Positives = 74/154 (48%), Gaps = 1/154 (1%)
+
+Query  14   FVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEGILRCHPDLAGR  73
+            F D    + E  P +A A++S+RPFS  + L +  ++ I +L  S +  ++  HP +   
+Sbjct  496  FFDCIHLLFEAAPPLANALFSKRPFSSYQQLIDQAYSIIQSLNESDKIQVINAHPRIGVS  555
+
+Query  74   DLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLAARLSDRATVPR  133
+              Q    ++ S REQS    +S+D      L QLN QY  +FGF FV+      +  +  
+Sbjct  556  ASQVKNSSSISYREQSCDKDSSIDQSILENLTQLNQQYESKFGFKFVVFVNGRPKNEIIP  615
+
+Query  134  ELARRLQCQ-PESELRTALGEVKKISHLRLTDLL  166
+             L  RL     + EL   L E+ +IS  RL  LL
+Sbjct  616  ILQNRLNNNDKQKELNLGLSEMIEISKSRLLKLL  649
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9447585440
+Results from round 2
+
+
+Query= 
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+Q283N4  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  277     1e-95
+A5PJD0  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  253     6e-86
+A1L1C5  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  247     1e-83
+Q0ZDF7  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  244     2e-82
+A1L259  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  243     5e-82
+A6NGE7  Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline de...  242     1e-81
+Q45697  Uric acid degradation bifunctional protein OS=Bacillus sp...  217     9e-68
+O32141  Uric acid degradation bifunctional protein PucL OS=Bacill...  211     2e-65
+D8JBB8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  199     1e-64
+D4GPU8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  191     2e-61
+Q54SV3  Probable allantoinase 1 OS=Dictyostelium discoideum OX=44...  197     4e-59
+
+Sequences not found previously or not previously below threshold:
+
+Q9LVM5  Uric acid degradation bifunctional protein TTL OS=Arabido...  77.4    5e-16
+
+
+>Q283N4 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Mus 
+musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 277 bits (709),  Expect = 1e-95, Method: Composition-based stats.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ
+Sbjct  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+            LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP
+Sbjct  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+
+
+>A5PJD0 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Bos 
+taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 253 bits (645),  Expect = 6e-86, Method: Composition-based stats.
+ Identities = 128/167 (77%), Positives = 140/167 (84%), Gaps = 0/167 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMDFGEFVDVFGN++E+CPLIAAAVWS+RPFSGL DLE HFFAFID LP SGQ
+Sbjct  1    MDIEKVNSMDFGEFVDVFGNVIERCPLIAAAVWSKRPFSGLGDLEKHFFAFIDGLPLSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EG+LRCHP+LAGR L  G LTAESQREQS AGL +L   +RLR  +L AQYR RFGFPFV
+Sbjct  61   EGVLRCHPELAGRQLPWGRLTAESQREQSAAGLQNLGAAERLRFTELTAQYRTRFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            LA RLSD A  PRELARRL+C P  ELRTALGEVKKI HLRL +LLG
+Sbjct  121  LALRLSDPAAAPRELARRLRCPPAQELRTALGEVKKICHLRLANLLG  167
+
+
+>A1L1C5 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Xenopus 
+laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 247 bits (630),  Expect = 1e-83, Method: Composition-based stats.
+ Identities = 92/166 (55%), Positives = 125/166 (75%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  +NSM + +F+D FGNI+E+CPL+ AA+WSQ+PF+ + +LEN  F FI++LP +G+
+Sbjct  1    MDLNTINSMSYEQFLDTFGNIIERCPLVTAAIWSQQPFASVTELENRVFDFIESLPLAGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDL +GTLT ESQ EQ+QAGLT L   ++  L  LN QY+ +FGFPFV
+Sbjct  61   EGILRCHPDLAGRDLMRGTLTDESQNEQAQAGLTLLSAKEKETLGFLNLQYKAKFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + A++SD+  + +EL  RLQ +   EL+  + EVKKI HLR+ DL 
+Sbjct  121  ICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVKKICHLRICDLF  166
+
+
+>Q0ZDF7 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Amia 
+calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 244 bits (622),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 97/166 (58%), Positives = 127/166 (77%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDM +VNS+ + EFV+ FGN+VE+CP++AAAVWS RPF+   DLE     FID+LP +GQ
+Sbjct  1    MDMRQVNSLSYEEFVETFGNVVERCPVVAAAVWSGRPFANSHDLEASIGEFIDSLPVAGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGI+RCHPDLAGRDL++G LTAES+ EQ+QAGLT LD  D  R+ +LNAQY+ERFGFPFV
+Sbjct  61   EGIVRCHPDLAGRDLKRGALTAESRGEQTQAGLTLLDAGDAARMNRLNAQYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + AR++++  +   LA RL  +P  E + A+ EVKKI  LRL D++
+Sbjct  121  ICARMNNKEEILLRLAERLGNEPAQERQCAIEEVKKICQLRLQDII  166
+
+
+>A1L259 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Danio 
+rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 243 bits (620),  Expect = 5e-82, Method: Composition-based stats.
+ Identities = 94/166 (57%), Positives = 129/166 (78%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  VN++ + +FV +FGN+VEKCPLI+AA+WS RPF  L D+E     FI +LP SG+
+Sbjct  1    MDINVVNALAYEDFVKLFGNVVEKCPLISAAIWSYRPFKDLADIEARISEFIHSLPDSGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQ GTLT ESQ EQSQAG+T+LD+ + + + +LN++Y+ERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQSGTLTPESQEEQSQAGMTTLDSAEIVHMYRLNSEYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + ARL+++A + R+L+ RL+ +  +EL  A+ EVKKI  LRL  ++
+Sbjct  121  ICARLNNKADIVRQLSERLKNRRTAELECAIEEVKKICSLRLHSIV  166
+
+
+>A6NGE7 Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase 
+OS=Homo sapiens OX=9606 GN=URAD PE=5 SV=2
+Length=173
+
+ Score = 242 bits (617),  Expect = 1e-81, Method: Composition-based stats.
+ Identities = 135/168 (80%), Positives = 142/168 (85%), Gaps = 0/168 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMD GEFVDVFGN  E+CPLIAAAVWSQRPFS LEDLE HFFAFIDAL +SGQ
+Sbjct  1    MDIEKVNSMDLGEFVDVFGNATERCPLIAAAVWSQRPFSDLEDLEKHFFAFIDALAQSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAG +LQ+GTLTAESQREQS AGL SL  D+RLRL +LNAQYR RFGFPFV
+Sbjct  61   EGILRCHPDLAGSELQRGTLTAESQREQSGAGLRSLGADERLRLAELNAQYRARFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+            LAAR SDR  VPRELARRL C    ELRTALGEVKKI  LRL DLL A
+Sbjct  121  LAARFSDRTAVPRELARRLLCPSAQELRTALGEVKKIGSLRLADLLRA  168
+
+
+>Q45697 Uric acid degradation bifunctional protein OS=Bacillus sp. (strain 
+TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 217 bits (552),  Expect = 9e-68, Method: Composition-based stats.
+ Identities = 52/167 (31%), Positives = 85/167 (51%), Gaps = 4/167 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            M + ++N M   EF+ + G + E    +A      RP+S  + L N     ++    + Q
+Sbjct  2    MRLKQLNEMSASEFIHLLGGVFENSSWVAERAEPNRPYSSFQSLYNKMVEIVETASDNEQ  61
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +++ HP L         +T  SQ EQ  AGL  L  D++  L  LN +Y+++FGFPFV
+Sbjct  62   LKLIQMHPHLGTN----VKITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFV  117
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            +A R   +  + R +  RLQ   ++E + AL E+KKI+  RL ++  
+Sbjct  118  MAVRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRLQEIFR  164
+
+
+>O32141 Uric acid degradation bifunctional protein PucL OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=pucL PE=1 SV=1
+Length=494
+
+ Score = 211 bits (536),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 55/164 (34%), Positives = 83/164 (51%), Gaps = 4/164 (2%)
+
+Query  3    MVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEG  62
+            M  +N MD     D  G+I E    IA    + RPFS L DL       + A  R  Q  
+Sbjct  4    MDDLNQMDTQTLTDTLGSIFEHSSWIAERSAALRPFSSLSDLHRKMTGIVKAADRETQLD  63
+
+Query  63   ILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLA  122
+            +++ HP L  +     T++ +S REQ  AGL  L+  +      LN  Y +RFGFPF+LA
+Sbjct  64   LIKKHPRLGTK----KTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFILA  119
+
+Query  123  ARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+             +   +  + + L  RL+ + E+E + AL E+ +I+  RL D++
+Sbjct  120  VKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADII  163
+
+
+>D8JBB8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Halalkalicoccus 
+jeotgali (strain DSM 18796 / CECT 7217 / JCM 
+14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 PE=3 SV=1
+Length=176
+
+ Score = 199 bits (506),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 57/165 (35%), Positives = 86/165 (52%), Gaps = 4/165 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            + +  +N  D   FVD  G++ E+ P +A   WS++PFS ++ L+      +    +  Q
+Sbjct  4    LTVEDLNQADKERFVDAVGDVYEESPWVAKRTWSEQPFSSIDGLQQAMANTVQDASQQKQ  63
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +LR HPDL  R      +T ESQ EQ+ AGL  L        Q LN  YR++FGFPF+
+Sbjct  64   LELLRAHPDLGER----TEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFI  119
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDL  165
+            +A +     T+ + +  R+      E +TAL EV  I+ LRL +L
+Sbjct  120  MAVKDESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRLEEL  164
+
+
+>D4GPU8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Haloferax 
+volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 
+/ NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2) OX=309800 GN=HVO_B0301 
+PE=3 SV=1
+Length=168
+
+ Score = 191 bits (484),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 62/168 (37%), Positives = 88/168 (52%), Gaps = 4/168 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            + + +VN +D   FVD FG I E  P +A    S RPFS +++L +     ++   R  Q
+Sbjct  4    LTLQQVNRLDDDSFVDAFGEIYEHSPWVAERARSSRPFSSVDELRSAMKRAVEDASREKQ  63
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +LR HPDL  R      +T  S+ EQ+ A L SL        Q+LN  YRERFGFPFV
+Sbjct  64   LQLLRAHPDLGER----TEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFV  119
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+            +A +  +   +   + RR+     +E RTAL EV  I+ LRL +   +
+Sbjct  120  MAVKDENPDAIAAAMERRVDHSESTEFRTALDEVHTIAELRLAERFSS  167
+
+
+>Q54SV3 Probable allantoinase 1 OS=Dictyostelium discoideum OX=44689 
+GN=allB1 PE=3 SV=1
+Length=649
+
+ Score = 197 bits (502),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 51/166 (31%), Positives = 79/166 (48%), Gaps = 2/166 (1%)
+
+Query  3    MVKVNSMDFG-EFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQE  61
+            +  +NS+     F D    + E  P +A A++S+RPFS  + L +  ++ I +L  S + 
+Sbjct  484  IELLNSLTEQKTFFDCIHLLFEAAPPLANALFSKRPFSSYQQLIDQAYSIIQSLNESDKI  543
+
+Query  62   GILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVL  121
+             ++  HP +     Q    ++ S REQS    +S+D      L QLN QY  +FGF FV+
+Sbjct  544  QVINAHPRIGVSASQVKNSSSISYREQSCDKDSSIDQSILENLTQLNQQYESKFGFKFVV  603
+
+Query  122  AARLSDRATVPRELARRLQCQ-PESELRTALGEVKKISHLRLTDLL  166
+                  +  +   L  RL     + EL   L E+ +IS  RL  LL
+Sbjct  604  FVNGRPKNEIIPILQNRLNNNDKQKELNLGLSEMIEISKSRLLKLL  649
+
+
+>Q9LVM5 Uric acid degradation bifunctional protein TTL OS=Arabidopsis 
+thaliana OX=3702 GN=TTL PE=1 SV=1
+Length=324
+
+ Score = 77.4 bits (189),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 55/146 (38%), Gaps = 5/146 (3%)
+
+Query  25   CPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEGILRCHPDLAGRDLQQGTLTAES  84
+                A  + +  P +  E +      + + +  +        HP +          +  +
+Sbjct  16   SSEFAKQMSTSGPLTSQEAIYTARDIWFNQVNVTDWLEAFSAHPQIGNTPSPSIN-SDFA  74
+
+Query  85   QR---EQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLAARLSDRATVPRELARRLQC  141
+            +R   EQS A   +        L + N  Y+++FGF F++ A     A +   L  R + 
+Sbjct  75   RRSVSEQSTA-FATTSASALQELAEWNVLYKKKFGFIFIICASGRTHAEMLHALKERYEN  133
+
+Query  142  QPESELRTALGEVKKISHLRLTDLLG  167
+            +P  EL  A  E  KI+ LR+  L  
+Sbjct  134  RPIVELEIAAMEQMKITELRMAKLFS  159
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9447585440
+Results from round 3
+
+
+Query= 
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+Q283N4  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  267     1e-91
+A5PJD0  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  244     1e-82
+A1L1C5  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  238     5e-80
+Q0ZDF7  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  236     2e-79
+A1L259  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  235     5e-79
+A6NGE7  Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline de...  234     2e-78
+Q45697  Uric acid degradation bifunctional protein OS=Bacillus sp...  211     1e-65
+O32141  Uric acid degradation bifunctional protein PucL OS=Bacill...  204     5e-63
+D8JBB8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  194     1e-62
+D4GPU8  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxyla...  185     2e-59
+Q54SV3  Probable allantoinase 1 OS=Dictyostelium discoideum OX=44...  197     4e-59
+Q9LVM5  Uric acid degradation bifunctional protein TTL OS=Arabido...  160     9e-48
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>Q283N4 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Mus 
+musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 267 bits (683),  Expect = 1e-91, Method: Composition-based stats.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ
+Sbjct  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+            LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP
+Sbjct  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARVELP  178
+
+
+>A5PJD0 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Bos 
+taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 244 bits (623),  Expect = 1e-82, Method: Composition-based stats.
+ Identities = 128/167 (77%), Positives = 140/167 (84%), Gaps = 0/167 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMDFGEFVDVFGN++E+CPLIAAAVWS+RPFSGL DLE HFFAFID LP SGQ
+Sbjct  1    MDIEKVNSMDFGEFVDVFGNVIERCPLIAAAVWSKRPFSGLGDLEKHFFAFIDGLPLSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EG+LRCHP+LAGR L  G LTAESQREQS AGL +L   +RLR  +L AQYR RFGFPFV
+Sbjct  61   EGVLRCHPELAGRQLPWGRLTAESQREQSAAGLQNLGAAERLRFTELTAQYRTRFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            LA RLSD A  PRELARRL+C P  ELRTALGEVKKI HLRL +LLG
+Sbjct  121  LALRLSDPAAAPRELARRLRCPPAQELRTALGEVKKICHLRLANLLG  167
+
+
+>A1L1C5 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Xenopus 
+laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 238 bits (606),  Expect = 5e-80, Method: Composition-based stats.
+ Identities = 92/166 (55%), Positives = 125/166 (75%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  +NSM + +F+D FGNI+E+CPL+ AA+WSQ+PF+ + +LEN  F FI++LP +G+
+Sbjct  1    MDLNTINSMSYEQFLDTFGNIIERCPLVTAAIWSQQPFASVTELENRVFDFIESLPLAGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDL +GTLT ESQ EQ+QAGLT L   ++  L  LN QY+ +FGFPFV
+Sbjct  61   EGILRCHPDLAGRDLMRGTLTDESQNEQAQAGLTLLSAKEKETLGFLNLQYKAKFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + A++SD+  + +EL  RLQ +   EL+  + EVKKI HLR+ DL 
+Sbjct  121  ICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVKKICHLRICDLF  166
+
+
+>Q0ZDF7 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Amia 
+calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 236 bits (603),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 97/166 (58%), Positives = 127/166 (77%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MDM +VNS+ + EFV+ FGN+VE+CP++AAAVWS RPF+   DLE     FID+LP +GQ
+Sbjct  1    MDMRQVNSLSYEEFVETFGNVVERCPVVAAAVWSGRPFANSHDLEASIGEFIDSLPVAGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGI+RCHPDLAGRDL++G LTAES+ EQ+QAGLT LD  D  R+ +LNAQY+ERFGFPFV
+Sbjct  61   EGIVRCHPDLAGRDLKRGALTAESRGEQTQAGLTLLDAGDAARMNRLNAQYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + AR++++  +   LA RL  +P  E + A+ EVKKI  LRL D++
+Sbjct  121  ICARMNNKEEILLRLAERLGNEPAQERQCAIEEVKKICQLRLQDII  166
+
+
+>A1L259 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Danio 
+rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 235 bits (600),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 94/166 (57%), Positives = 129/166 (78%), Gaps = 0/166 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+  VN++ + +FV +FGN+VEKCPLI+AA+WS RPF  L D+E     FI +LP SG+
+Sbjct  1    MDINVVNALAYEDFVKLFGNVVEKCPLISAAIWSYRPFKDLADIEARISEFIHSLPDSGK  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAGRDLQ GTLT ESQ EQSQAG+T+LD+ + + + +LN++Y+ERFGFPFV
+Sbjct  61   EGILRCHPDLAGRDLQSGTLTPESQEEQSQAGMTTLDSAEIVHMYRLNSEYKERFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLL  166
+            + ARL+++A + R+L+ RL+ +  +EL  A+ EVKKI  LRL  ++
+Sbjct  121  ICARLNNKADIVRQLSERLKNRRTAELECAIEEVKKICSLRLHSIV  166
+
+
+>A6NGE7 Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase 
+OS=Homo sapiens OX=9606 GN=URAD PE=5 SV=2
+Length=173
+
+ Score = 234 bits (596),  Expect = 2e-78, Method: Composition-based stats.
+ Identities = 135/168 (80%), Positives = 142/168 (85%), Gaps = 0/168 (0%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            MD+ KVNSMD GEFVDVFGN  E+CPLIAAAVWSQRPFS LEDLE HFFAFIDAL +SGQ
+Sbjct  1    MDIEKVNSMDLGEFVDVFGNATERCPLIAAAVWSQRPFSDLEDLEKHFFAFIDALAQSGQ  60
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+            EGILRCHPDLAG +LQ+GTLTAESQREQS AGL SL  D+RLRL +LNAQYR RFGFPFV
+Sbjct  61   EGILRCHPDLAGSELQRGTLTAESQREQSGAGLRSLGADERLRLAELNAQYRARFGFPFV  120
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+            LAAR SDR  VPRELARRL C    ELRTALGEVKKI  LRL DLL A
+Sbjct  121  LAARFSDRTAVPRELARRLLCPSAQELRTALGEVKKIGSLRLADLLRA  168
+
+
+>Q45697 Uric acid degradation bifunctional protein OS=Bacillus sp. (strain 
+TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 211 bits (538),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 52/167 (31%), Positives = 85/167 (51%), Gaps = 4/167 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            M + ++N M   EF+ + G + E    +A      RP+S  + L N     ++    + Q
+Sbjct  2    MRLKQLNEMSASEFIHLLGGVFENSSWVAERAEPNRPYSSFQSLYNKMVEIVETASDNEQ  61
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +++ HP L         +T  SQ EQ  AGL  L  D++  L  LN +Y+++FGFPFV
+Sbjct  62   LKLIQMHPHLGTN----VKITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFV  117
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            +A R   +  + R +  RLQ   ++E + AL E+KKI+  RL ++  
+Sbjct  118  MAVRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRLQEIFR  164
+
+
+>O32141 Uric acid degradation bifunctional protein PucL OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=pucL PE=1 SV=1
+Length=494
+
+ Score = 204 bits (520),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 55/166 (33%), Positives = 83/166 (50%), Gaps = 4/166 (2%)
+
+Query  2    DMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQE  61
+             M  +N MD     D  G+I E    IA    + RPFS L DL       + A  R  Q 
+Sbjct  3    TMDDLNQMDTQTLTDTLGSIFEHSSWIAERSAALRPFSSLSDLHRKMTGIVKAADRETQL  62
+
+Query  62   GILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVL  121
+             +++ HP L  +     T++ +S REQ  AGL  L+  +      LN  Y +RFGFPF+L
+Sbjct  63   DLIKKHPRLGTK----KTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFIL  118
+
+Query  122  AARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLG  167
+            A +   +  + + L  RL+ + E+E + AL E+ +I+  RL D++ 
+Sbjct  119  AVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADIIT  164
+
+
+>D8JBB8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Halalkalicoccus 
+jeotgali (strain DSM 18796 / CECT 7217 / JCM 
+14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 PE=3 SV=1
+Length=176
+
+ Score = 194 bits (493),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 57/165 (35%), Positives = 86/165 (52%), Gaps = 4/165 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            + +  +N  D   FVD  G++ E+ P +A   WS++PFS ++ L+      +    +  Q
+Sbjct  4    LTVEDLNQADKERFVDAVGDVYEESPWVAKRTWSEQPFSSIDGLQQAMANTVQDASQQKQ  63
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +LR HPDL  R      +T ESQ EQ+ AGL  L        Q LN  YR++FGFPF+
+Sbjct  64   LELLRAHPDLGER----TEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFI  119
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDL  165
+            +A +     T+ + +  R+      E +TAL EV  I+ LRL +L
+Sbjct  120  MAVKDESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRLEEL  164
+
+
+>D4GPU8 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase OS=Haloferax 
+volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 
+/ NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2) OX=309800 GN=HVO_B0301 
+PE=3 SV=1
+Length=168
+
+ Score = 185 bits (470),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 62/168 (37%), Positives = 88/168 (52%), Gaps = 4/168 (2%)
+
+Query  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+            + + +VN +D   FVD FG I E  P +A    S RPFS +++L +     ++   R  Q
+Sbjct  4    LTLQQVNRLDDDSFVDAFGEIYEHSPWVAERARSSRPFSSVDELRSAMKRAVEDASREKQ  63
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              +LR HPDL  R      +T  S+ EQ+ A L SL        Q+LN  YRERFGFPFV
+Sbjct  64   LQLLRAHPDLGER----TEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFV  119
+
+Query  121  LAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGA  168
+            +A +  +   +   + RR+     +E RTAL EV  I+ LRL +   +
+Sbjct  120  MAVKDENPDAIAAAMERRVDHSESTEFRTALDEVHTIAELRLAERFSS  167
+
+
+>Q54SV3 Probable allantoinase 1 OS=Dictyostelium discoideum OX=44689 
+GN=allB1 PE=3 SV=1
+Length=649
+
+ Score = 197 bits (502),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 51/167 (31%), Positives = 79/167 (47%), Gaps = 2/167 (1%)
+
+Query  2    DMVKVNSMDFG-EFVDVFGNIVEKCPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQ  60
+             +  +NS+     F D    + E  P +A A++S+RPFS  + L +  ++ I +L  S +
+Sbjct  483  TIELLNSLTEQKTFFDCIHLLFEAAPPLANALFSKRPFSSYQQLIDQAYSIIQSLNESDK  542
+
+Query  61   EGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFV  120
+              ++  HP +     Q    ++ S REQS    +S+D      L QLN QY  +FGF FV
+Sbjct  543  IQVINAHPRIGVSASQVKNSSSISYREQSCDKDSSIDQSILENLTQLNQQYESKFGFKFV  602
+
+Query  121  LAARLSDRATVPRELARRLQCQ-PESELRTALGEVKKISHLRLTDLL  166
+            +      +  +   L  RL     + EL   L E+ +IS  RL  LL
+Sbjct  603  VFVNGRPKNEIIPILQNRLNNNDKQKELNLGLSEMIEISKSRLLKLL  649
+
+
+>Q9LVM5 Uric acid degradation bifunctional protein TTL OS=Arabidopsis 
+thaliana OX=3702 GN=TTL PE=1 SV=1
+Length=324
+
+ Score = 160 bits (406),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 55/146 (38%), Gaps = 5/146 (3%)
+
+Query  25   CPLIAAAVWSQRPFSGLEDLENHFFAFIDALPRSGQEGILRCHPDLAGRDLQQGTLTAES  84
+                A  + +  P +  E +      + + +  +        HP +          +  +
+Sbjct  16   SSEFAKQMSTSGPLTSQEAIYTARDIWFNQVNVTDWLEAFSAHPQIGNTPSPSIN-SDFA  74
+
+Query  85   QR---EQSQAGLTSLDTDDRLRLQQLNAQYRERFGFPFVLAARLSDRATVPRELARRLQC  141
+            +R   EQS A   +        L + N  Y+++FGF F++ A     A +   L  R + 
+Sbjct  75   RRSVSEQSTA-FATTSASALQELAEWNVLYKKKFGFIFIICASGRTHAEMLHALKERYEN  133
+
+Query  142  QPESELRTALGEVKKISHLRLTDLLG  167
+            +P  EL  A  E  KI+ LR+  L  
+Sbjct  134  RPIVELEIAAMEQMKITELRMAKLFS  159
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9447585440
+
+Search has CONVERGED!
+
+
+  Database: /Users/m6oor/Desktop/Dropbox/membraneprdiction/DB/SwissOct18.fasta
+    Posted date:  Oct 5, 2018  12:15 PM
+  Number of letters in database: 200,328,830
+  Number of sequences in database:  558,125
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
