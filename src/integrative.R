@@ -1,9 +1,5 @@
 ##################################################
-## Name: PsePSSMFeatures.R
-## Project: implementing the PSSM-Pse fearures as described in MemType-2L paper. The PSSM matrix was extracted from 
-## psiblastSeq method.
-## input: fasta file
-## output: PSSM-Pse0,PSSM-Pse1,PSSM-Pse2 files. each file have a row for each sequence that corrsponds the the psePSSM descriptors
+## Name: integrative.R
 ## Date: 25th Oct 2018
 ## Author: Munira Alballa
 ##################################################
